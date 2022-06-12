@@ -1,11 +1,5 @@
 
-# idées :
-#coder la PCA
 
-# Vu que on shuffle les datasets => test et données pas constants donc resultat pas toujours le meme
-# mais bonnes perf quand meme, on peut passer en dessous de 2% et en moyenne entre 3.5 et 4% d'erreur
-
-# Utiliser k-fold cross validation pour évaluer les perfs puis vrai test
 
 
 
