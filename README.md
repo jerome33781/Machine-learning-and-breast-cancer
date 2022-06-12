@@ -136,6 +136,14 @@ Enfin, pour pousser l’idée d’une réelle application dans le cadre médical
  
 
 
+# Conclusion 
+
+L'analyse effectuée n'est pas la même démarche que celle que pourrait avoir un chercheur visant à établir le meilleur algorithme de prédiction à ce problème donné dans la mesure où il s'agirait plutôt que de choisir des algorithmes et de les améliorer, de définir le meileur modèle de classification.   
+
+On peut suite à l'analyse menée, combiner ces ddeux algorithmes de sorte à espérer obtenir de meilleurs résultats, on se rapproche alors de la question du modèle optimal décrite précédemment. 
+
+A travers cette étude on a pu mettre en évidence l'importance de la base de données, et notamment le format des données dans les algorithmes. La définition de l'importance et le coefficiantage du knn par la distance ont amélioré la précision des algorithmes sans impacter leur complexité. Pour le clustering, on pourrait dans s'interesser à définir les meilleurs initialisation, ou du moins identifier leurs propriétés, de sorte à eviter l'aléatoire ou du moins de le limiter. 
+
 
 
 
