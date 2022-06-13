@@ -21,11 +21,11 @@ Mammographic Mass Data Set contient 830 patients définis sur 5 variables
   
 ## I.   Exploration et modification des données 
 
-Avant de travailler avec la base de données, on va l’analyser. On regarde tout d'abord si certaines données sont redondantes. Pour ce faire on établit une matrice de covariance entre les variables. On pourra ainsi lors de l’étude éliminer les données redondantes pour plus d’efficacité, même si dans une optique de diagnostic médical, garder l’intégralité des données semble meilleur car la précision prime sur la rapidité. Dans le cadre d'une campagne de dépistage en revanche en revanche, on pourrait chercher une telle efficacité.
+Avant de travailler avec la base de données, on va l’analyser. On regarde tout d'abord si certaines données sont redondantes. Pour ce faire on établit une matrice de covariance entre les variables. On pourra ainsi lors de l’étude éliminer les données redondantes pour plus d’efficacité, même si dans une optique de diagnostic médical, garder l’intégralité des données semble meilleur car la précision prime sur la rapidité. Dans le cadre d'une campagne de dépistage en revanche, on pourrait chercher une telle efficacité.
   
 ![matrice correlation wis](https://user-images.githubusercontent.com/83364235/173245797-40ee2cd8-f0ad-4a68-b767-182b18e02e7d.PNG)
 
- Pour se rendre compte de si l'on peut facilement travailler sur la base de données, on peut essayer de la visualiser en utilisant une analyse en composante principale, dont je détaillerai le fonctionnement et l'implémentation dans le IV. Il est important de noter que les axes sur la figure n'ont pas de sens physique ou médical, ils sont issus de calculs mathématiques.
+ Pour se rendre compte si l'on peut facilement travailler sur la base de données, on peut essayer de la visualiser en utilisant une analyse en composante principale, dont je détaillerai le fonctionnement et l'implémentation dans le IV. Il est important de noter que les axes sur la figure n'ont pas de sens physique ou médical, ils sont issus de calculs mathématiques.
   
   ![PCA wis](https://user-images.githubusercontent.com/83364235/173245965-061e0c11-f41f-46b9-9901-8ba34cbb5ea5.png)
 
