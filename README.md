@@ -139,7 +139,7 @@ On peut dès l'étape de visualisation remarquer que la base semble très compac
 
 # Conclusion   
 
-L'analyse effectuée a considéré deux algorithmes de classification et une base de données de sorte à identifier les paramètres importants de ces algorithmes. Cette démarche n'est pas la même que celle que pourrait avoir un chercheur visant à établir le meilleur algorithme de prédiction à ce problème donné dans la mesure où il s'agirait plutôt que de choisir des algorithmes et de les améliorer, de définir le meilleur modèle de classification pour répondre au problème.
+L'analyse effectuée a considéré deux algorithmes de classification et une base de données de sorte à identifier les paramètres importants de ces algorithmes. Cette démarche n'est pas la même que celle que pourrait avoir un chercheur visant à établir le meilleur algorithme de prédiction à ce problème donné dans la mesure où il s'agirait plutôt de choisir des algorithmes et de les améliorer, de définir le meilleur modèle de classification pour répondre au problème.
 
 On peut suite à l'analyse menée, combiner les algorithmes de KNN et de clustering de sorte à espérer obtenir de meilleurs résultats, et se rapprocher ainsi de la démarche du chercheur décrite précédemment.  
 
