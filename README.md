@@ -1,17 +1,14 @@
 # Machine-learning-and-breast-cancer
 ## Analyse et implémentation d'algorithmes de classification : K-plus-proches-voisins et k-moyennes
 
-Problématique de l'étude : 
-  Comment mettre au point des algorithmes de classification appropriés au diagnostic médical ?
+__Problématique de l'étude :__  
+  
+  Comment mettre au point des algorithmes de classification appropriés au diagnostic médical ?  
   C’est-à-dire optimiser leurs performances et étudier leur capacité à expliquer leurs résultats.
   
-Objectif de l'étude : 
-    Lors de cette étude, on cherchera tout d’abord à optimiser les données d’entrées vis-à-vis du
-  problème de classification : supprimer les redondances et accentuer les variables importantes,
-  normaliser les données... Une fois les algorithmes implémentés, il faudra les optimiser selon des critères bien
-  définis, en considérant par exemple une matrice de confusion ou leurs complexités temporelles et
-  spatiales. Enfin, un aspect important sera de mettre au point des algorithmes annexes capable
-  d’argumenter la sortie de l’algorithme principal et donc d’expliquer la prédiction à un humain.
+__Objectif de l'étude :__   
+  
+   Lors de cette étude, on cherchera tout d’abord à optimiser les données d’entrées vis-à-vis du problème de classification. Une fois les algorithmes implémentés, il faudra les optimiser selon des critères à définir. Enfin, un aspect important sera de mettre au point des algorithmes annexes capable d’argumenter la sortie de l’algorithme principal et donc d’expliquer la prédiction à un humain.
 
 __Plan de l'analyse :__  
   I.   Exploration et modification des données  
