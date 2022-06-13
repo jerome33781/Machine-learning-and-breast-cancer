@@ -19,8 +19,7 @@ __Plan de l'analyse :__
   III. Mise au point d'une analyse en composante principale  
   IV.  Mise au point du compte rendu explicatif
  
-Lors de cette étude, on utilisera majoritairement la base de donnée : Breast Cancer Wisconsin Data Set, et pour une comparaison finale Mammographic Mass Data Set
-Breast Cancer Wisconsin Data Set contient 579 patients, définis sur 30 variables
+Lors de cette étude, on utilisera majoritairement la base de données Breast Cancer Wisconsin Data Set, puis pour une comparaison finale  la base Mammographic Mass Data Set. Breast Cancer Wisconsin Data Set contient 579 patients, définis sur 30 variables et 
 Mammographic Mass Data Set contient 830 patients définis sur 5 variables
   
 ## I.   Exploration et modification des données 
