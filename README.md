@@ -137,13 +137,13 @@ On peut dès l'étape de visualisation remarquer que la base semble très compac
  
 
 
-# Conclusion 
+# Conclusion   
 
-L'analyse effectuée n'est pas la même démarche que celle que pourrait avoir un chercheur visant à établir le meilleur algorithme de prédiction à ce problème donné dans la mesure où il s'agirait plutôt que de choisir des algorithmes et de les améliorer, de définir le meilleur modèle de classification.   
+L'analyse effectuée a considéré deux algorithmes de classification et une base de données de sorte à identifier les paramètres importants de ces algorithmes. Cette démarche n'est pas la même que celle que pourrait avoir un chercheur visant à établir le meilleur algorithme de prédiction à ce problème donné dans la mesure où il s'agirait plutôt que de choisir des algorithmes et de les améliorer, de définir le meilleur modèle de classification pour répondre au problème.
 
-On peut suite à l'analyse menée, combiner ces deux algorithmes de sorte à espérer obtenir de meilleurs résultats, on se rapproche alors de la question du modèle optimal décrite précédemment.  
+On peut suite à l'analyse menée, combiner les algorithmes de KNN et de clustering de sorte à espérer obtenir de meilleurs résultats, et se rapprocher ainsi de la démarche du chercheur décrite précédemment.  
 
-A travers cette étude on a pu mettre en évidence l'importance de la base de données, et notamment le format des données dans les algorithmes. La définition de l'importance et le poids par la distance dans le KNN ont amélioré la précision des algorithmes sans impacter leur complexité. Pour le clustering, on pourrait dans s'intéresser à définir les meilleures initialisations, ou du moins identifier leurs propriétés, de sorte à éviter l'aléatoire ou du moins de le limiter.   
+A travers cette étude on a pu mettre en évidence l'importance de la base de données, et notamment le format des données dans les algorithmes. La définition de l'importance et le poids par la distance dans le KNN ont amélioré la précision des algorithmes sans impacter leur complexité. Pour le clustering, on pourrait s'intéresser à définir des meilleures initialisations, ou du moins identifier leurs propriétés, de sorte à éviter l'aléatoire ou du moins de le limiter.  
 
 
 # Références
