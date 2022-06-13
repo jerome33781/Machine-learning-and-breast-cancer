@@ -17,8 +17,10 @@ __Plan de l'analyse :__
   IV.  Mise au point du compte rendu explicatif
  
 Lors de cette étude, on utilisera majoritairement la base de données Breast Cancer Wisconsin Data Set, puis pour une comparaison finale  la base Mammographic Mass Data Set. Breast Cancer Wisconsin Data Set contient 579 patients, définis sur 30 variables et 
-Mammographic Mass Data Set contient 830 patients définis sur 5 variables
+Mammographic Mass Data Set contient 830 patients définis sur 5 variables  
   
+On utilisera les abréviation M pour malin et B pour bénin   
+
 ## I.   Exploration et modification des données 
 
 Avant de travailler avec la base de données, on va l’analyser. On regarde tout d'abord si certaines données sont redondantes. Pour ce faire on établit une matrice de covariance entre les variables. On pourra ainsi lors de l’étude éliminer les données redondantes pour plus d’efficacité, même si dans une optique de diagnostic médical, garder l’intégralité des données semble meilleur car la précision prime sur la rapidité. Dans le cadre d'une campagne de dépistage en revanche, on pourrait chercher une telle efficacité.
@@ -111,9 +113,9 @@ Un autre paramètre important est la conservation de la distance. En effet, le b
 
 ## IV.  Mise au point du compte rendu explicatif
 
-Dans l’optique d’un algorithme qui communique avec le médecin, on peut s’intéresser à la question de ce que renvoie l’algorithme. L’idée est donc ici pour le KNN de renvoyer le tableau des valeurs médicales (non transformés) des voisins, la prédiction, et de mettre un système de couleur de sorte à faciliter la lecture. Dans le cadre du clustering, on pourrait par exemple renvoyer les valeurs du patient moyen du cluster auquel appartient le patient étudié.  
+Dans l’optique d’un algorithme qui communique avec le médecin, on peut s’intéresser à la question de ce que renvoie l’algorithme. L’idée est donc ici pour le KNN de renvoyer le tableau des valeurs médicales (non transformées) des voisins, la prédiction, et de mettre un système de couleur de sorte à faciliter la lecture. Dans le cadre du clustering, on pourrait par exemple renvoyer les valeurs du patient moyen du cluster auquel appartient le patient étudié.  
   
-Tableau récapitulatif KNN :   
+Tableau récapitulatif KNN : 
 
 ![tableau proche couleur wis distance ( id patient = 64 ) ](https://user-images.githubusercontent.com/83364235/173248111-c73bc46c-a915-4a23-9f9e-c6e0bd60a47a.PNG)
 
