@@ -21,7 +21,7 @@ Mammographic Mass Data Set contient 830 patients définis sur 5 variables
   
 ## I.   Exploration et modification des données 
 
-Avant de travailler la base de données, on va l’analyser. On regarde tout d'abord si certaines données sont redondantes. Pour ce faire on établit une matrice de covariance entre les variables. On pourra ainsi lors de l’étude éliminer les données redondantes pour plus d’efficacité, même si dans une optique de diagnostic médical, garder l’intégralité des données semble meilleur car la précision prime sur la rapidité. Dans le cadre d'une campagne de dépistage en revanche en revanche, on pourrait chercher une telle efficacité.
+Avant de travailler avec la base de données, on va l’analyser. On regarde tout d'abord si certaines données sont redondantes. Pour ce faire on établit une matrice de covariance entre les variables. On pourra ainsi lors de l’étude éliminer les données redondantes pour plus d’efficacité, même si dans une optique de diagnostic médical, garder l’intégralité des données semble meilleur car la précision prime sur la rapidité. Dans le cadre d'une campagne de dépistage en revanche en revanche, on pourrait chercher une telle efficacité.
   
 ![matrice correlation wis](https://user-images.githubusercontent.com/83364235/173245797-40ee2cd8-f0ad-4a68-b767-182b18e02e7d.PNG)
 
