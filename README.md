@@ -106,7 +106,7 @@ zones d'erreurs :
 
 
 
-Un autre paramètre important est la conservation de la distance. En effet, le but étant de visualiser une situation au plus proche de celle en dimension élevée, il faut au maximum conserver les distances. On constate alors encore ici la différence entre les algorithmes. D’ailleurs, l’article [6] de l’annexe propose dans leur étude une réduction via des coordonnées polaire, centré en le point test, ce qui permet de conserver avec une grande efficacité les distances par rapport à ce point, mais cela s’applique difficilement dans un contexte de visualisation global des distances.      
+Un autre paramètre important est la conservation de la distance. En effet, le but étant de visualiser une situation au plus proche de celle en dimension élevée, il faut au maximum conserver les distances. On constate alors encore ici la différence entre les algorithmes. D’ailleurs, l’article [6] de l’annexe propose dans leur étude une réduction via des coordonnées polaire, centré en le point test, ce qui permet de conserver avec une grande efficacité les distances par rapport à ce point, mais cela s’applique difficilement dans un contexte de visualisation global des distances.  
 
 ![ecart distance](https://user-images.githubusercontent.com/83364235/173248009-bd721cb9-0a94-4750-b25a-bec9030b32e9.PNG)
 
@@ -129,7 +129,7 @@ Enfin, pour pousser l’idée d’une réelle application dans le cadre médical
  
  Impact de la base de donnée :
  
- On remarque par une analyse similaire réalisée sur la deuxième base de données, de beaucoup moins bonne qualité, que sans une base de données intéressante, aucune analyse pertinente n’est possible.   
+ On remarque par une analyse similaire réalisée sur la deuxième base de données, de beaucoup moins bonne qualité, que sans une base de données intéressante, aucune analyse pertinente n’est possible. Les visualisations sont ici réalisées avec l'algorithme de l'INRIA.
  
  ![mass](https://user-images.githubusercontent.com/83364235/173248240-4c0a1e86-ede1-4e3c-a18e-8a257f64f14f.PNG)
 
